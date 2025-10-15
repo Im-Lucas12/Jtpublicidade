@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synvo - Site Map & Navigation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        .page-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .page-card {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 24px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .page-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-color: #667eea;
+        }
+
+        .page-card h3 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+
+        .page-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .category {
+            margin-bottom: 50px;
+        }
+
+        .category-title {
+            font-size: 1.8rem;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            margin-top: 8px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            color: white;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>🚀 Synvo IT Services</h1>
+            <p class="subtitle">Complete Website Navigation</p>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🏠 Home Pages</h2>
+            <div class="page-grid">
+                <a href="index.html" class="page-card">
+                    <h3>Home (Main)</h3>
+                    <p>Default homepage with hero slider, services, and testimonials</p>
+                    <span class="badge">Primary</span>
+                </a>
+                <a href="home-1.html" class="page-card">
+                    <h3>Home Variant 1</h3>
+                    <p>Alternative homepage layout with featured content</p>
+                </a>
+                <a href="home-2.html" class="page-card">
+                    <h3>Home Variant 2</h3>
+                    <p>Second alternative homepage design</p>
+                </a>
+                <a href="home-3.html" class="page-card">
+                    <h3>Home Variant 3</h3>
+                    <p>Third alternative homepage layout</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">📄 Pages</h2>
+            <div class="page-grid">
+                <a href="about.html" class="page-card">
+                    <h3>About Us</h3>
+                    <p>Company information, mission, vision, and values</p>
+                </a>
+                <a href="pricing.html" class="page-card">
+                    <h3>Pricing Plans</h3>
+                    <p>Service packages and pricing tiers</p>
+                </a>
+                <a href="contact.html" class="page-card">
+                    <h3>Contact</h3>
+                    <p>Get in touch with our team</p>
+                </a>
+                <a href="404.html" class="page-card">
+                    <h3>404 Error Page</h3>
+                    <p>Custom error page design</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🛠️ Services</h2>
+            <div class="page-grid">
+                <a href="service.html" class="page-card">
+                    <h3>Services Overview</h3>
+                    <p>Complete list of IT services offered</p>
+                </a>
+                <a href="service-details.html" class="page-card">
+                    <h3>Service Details</h3>
+                    <p>Detailed view of individual service offerings</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">💼 Portfolio</h2>
+            <div class="page-grid">
+                <a href="projects.html" class="page-card">
+                    <h3>Projects Gallery</h3>
+                    <p>Showcase of completed projects and case studies</p>
+                </a>
+                <a href="project-details.html" class="page-card">
+                    <h3>Project Details</h3>
+                    <p>In-depth look at individual projects</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">👥 Team</h2>
+            <div class="page-grid">
+                <a href="team.html" class="page-card">
+                    <h3>Team Members</h3>
+                    <p>Meet our professional team</p>
+                </a>
+                <a href="team-details.html" class="page-card">
+                    <h3>Team Member Profile</h3>
+                    <p>Detailed profile of individual team members</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">📝 Blog</h2>
+            <div class="page-grid">
+                <a href="blog.html" class="page-card">
+                    <h3>Blog Listing</h3>
+                    <p>Latest news, articles, and insights</p>
+                </a>
+                <a href="blog-details.html" class="page-card">
+                    <h3>Blog Post</h3>
+                    <p>Full article with content and comments</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">📚 Documentation</h2>
+            <div class="page-grid">
+                <a href="documentation/index.html" class="page-card">
+                    <h3>Template Documentation</h3>
+                    <p>Complete guide to using this template</p>
+                    <span class="badge">Docs</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

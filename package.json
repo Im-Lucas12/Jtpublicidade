@@ -1,0 +1,13 @@
+{
+  "name": "synvo-it-service",
+  "version": "1.0.0",
+  "description": "Synvo IT Service Solution HTML Template",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Build complete - static HTML site'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
